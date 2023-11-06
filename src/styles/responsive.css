@@ -1,0 +1,30 @@
+@media screen and (max-width: 780px) {
+    main {
+        width: 650px;
+        padding: 25px 30px;
+    }
+}
+
+
+@media screen and (max-width: 655px) {
+    main {
+        width: 550px;
+        padding: 20px 25px;
+    }
+
+    header h2 {
+        font-size: 1.2rem;
+    }
+
+    .column span {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    main {
+        width: 600px;
+        padding: 25px 30px;
+        transform: rotate(90deg);
+    }
+}
